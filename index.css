@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Share Tech Mono', monospace;
+  overflow-x: hidden;
+}
+
+.wraper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #98C1D9;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  font-size: 18px;
+}
+
+.brand {
+  margin-top: -7px;
+  font-size: 24px;
+}
+
+.brand span {
+  color: red;  
+}
+
+.brand h2{
+  font-family: 'Monoton' , cursive;
+}
+
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: ease-in .4s;
+}
+
+.menu a:hover {
+  font-family:  'Monoton' , cursive;
+  background-color: #E0FBFC;
+  color: black;
+}
+
+.main {
+ margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+}
+
+.main div {
+  margin-bottom: 80px;
+}
+
+h1 {
+  font-size: 3em;
+}
+.main img {
+  width: 350px;
+  height: 520px;
+  margin-left: 5em;
+}
+
+.sign-up {
+  padding: 10px 20px;
+  background-color: aqua;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px 5px rgba(102, 231, 200, .69);
+}
+
+.sign-up:hover {
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  width: 100wh;
+/*   align-items: center; */
+  padding: 40px;
+  flex-direction: column;
+}
+
+.project h1 {
+  padding: 90px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.project p {
+  padding-top: 8px;
+}
+
+.imagen {
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.project img {
+  width: 200px;
+  height: 200px;
+  padding-left: 1px;
+  object-fit: cover;
+  border: 2px solid #3D5A80;
+  border-radius: 10px 100px / 120px;;
+}
