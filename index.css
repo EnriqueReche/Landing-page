@@ -135,3 +135,83 @@ h1 {
   border: 2px solid #3D5A80;
   border-radius: 10px 100px / 120px;;
 }
+
+.quote {
+  background-color: #EF233C;
+  height: 60vh;
+  width: 90wh;
+  display: flex;
+  justify-content;
+}
+
+.thor {
+  display: flex;
+  justify-content: center;
+  padding: 20px 300px;
+  flex-direction: column;
+}
+
+.thor p {
+  font-size: 1.2em;
+}
+
+.thor h1 {
+  display: inline;
+  font-size: 1.5em;
+  float: left;
+}
+
+.sign {
+  background-color: #8D99AE;
+  height: 15vh;
+  width: 70vw;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+ /*  margin: 100px 100px; */
+  border-radius: 20px;
+  margin-right: 40px;
+  margin: 100PX;
+  margin-left: 12.5em;
+}
+
+.sign div {
+  margin-right: 60px;
+}
+
+.sign button{
+  padding: 10px 20px;
+  background-color: aqua;
+  border: none;
+  border-radius: 20px;
+  margin: 25px 10px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px 5px rgba(102, 231, 200, .69);
+}
+
+.sign div h1 {
+  font-size: 1.5em;
+  margin-top: 1.2em;
+}
+
+.sign div p {
+  margin-bottom: 1.2em;
+}
+
+footer {
+  background-color: #2B2D42;
+  height: 15vh;
+  width: 100vw;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+footer p{
+  margin-top: 2.5em;
+}
+
+
+
+ 
+
